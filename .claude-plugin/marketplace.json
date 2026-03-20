@@ -7,7 +7,10 @@
   "plugins": [
     {
       "name": "slack-channel",
-      "source": ".",
+      "source": {
+        "source": "github",
+        "repo": "tyyzqmf/claude-slack-channel"
+      },
       "description": "Slack channel plugin for Claude Code — Socket Mode messaging bridge with access control, pairing, and MCP tools (reply, react, edit).",
       "version": "0.0.1",
       "author": {
